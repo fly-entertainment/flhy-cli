@@ -1,0 +1,19 @@
+import { View, Text } from 'react-native';
+import { NativeStackScreenProps } from '@react-navigation/native-stack';
+import { ${pageComponentKey} } from '@/config/router';
+
+type ${pageComponent}Param = {
+  [${pageComponentKey}]: undefined;
+};
+
+type ${pageComponent}NavigationProps = NativeStackScreenProps<${pageComponent}Param, typeof ${pageComponentKey}>;
+
+const ${pageComponent} = (props: ${pageComponent}NavigationProps) => {
+  return (
+    <View>
+      <Text>${pageComponent}</Text>
+    </View>
+  );
+};
+
+export default ${pageComponent};
