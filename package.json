@@ -1,6 +1,6 @@
 {
   "name": "flhy-cli",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "flhy cli",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -8,8 +8,7 @@
   "author": "cmc",
   "license": "ISC",
   "bin": {
-    "flhy": "bin/flhy.js",
-    "flhy-create": "bin/flhy-create.js"
+    "flhy-cli": "bin/flhy.js"
   },
   "dependencies": {
     "chalk": "2",
